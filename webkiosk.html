@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>JUET Header</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+   
+    <form class="login-form"  >
+     <div class="title">
+    <h3 >Juet LearnSync Login</h3>
+        </div>
+        
+    <div class="form-input">
+        <lable id="type" for="username">Enrollment No.</lable>
+        <br>
+        <select name="User-type" id="user" onchange="usertype()">
+      <option value="Employee">Employee</option>
+      <option value="Student">Student</option>
+      <option value="Guest">Guest</option>
+        </select>
+        <br>
+        <input type="text" id="user-id" name="user-id" class="mytext">
+        </div>
+        
+        
+    <div class="form-input">
+        <lable for="password">Password</lable>
+        <br>
+        <input type="password" id="user-pwd" name="pwd" class="mytext">
+        </div>
+        
+        
+        
+    <div class="form-input">
+        <div class="btn">
+        <button onclick=" validateForm()"id="login-btn">Submit</button>
+            
+            <button id ="reset" onclick="myFunction()">Reset</button>
+        </div>
+        </div>
+        
+    </form>
+    
+<!--JAVASCRIPT    -------!-->
+    
+    <!-- form validation ----->
+    
+    <script>
+    function validateForm() {
+  let x = document.getElementById("user-id").value;
+  let y = document.getElementById("user-pwd").value;
+  if (x == "" ) {
+    alert("Name must be filled out");
+    return false;
+  }
+  else if(y ==""){
+      alert("password cannot be empty");
+      return false;
+  }
+}
+    </script>
+    
+    <!-- for rest button --->
+        <script>
+        function myFunction() {
+  document.getElementById("login-form").reset();
+}
+    
+    </script>
+    
+</body>
+</html>
+
+

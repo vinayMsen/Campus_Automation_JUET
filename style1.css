@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    
+}
+body{
+background: url(wallpaper.jfif);
+    font-size:35px;
+}
+.header{
+    text-align: center;
+}
+.row1{
+    background: peru;
+    width: 99.9%;
+    margin: 0px;
+}
+.row2{
+    background: white;
+   width:99.9%;
+  
+}
+.row3{
+    background: peru;
+    text-align:inherit;
+    color:white;
+    width: 99.9%;
+  
+}
+
+.navlinks ul li{
+  
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.navlinks ul li a{
+      vertical-align: top;
+    text-decoration: none;
+    color: white;   
+    text-align: center;
+    display: inline-block;
+    padding: 12px 34px;
+    font-size:15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.navlinks ul li:after{
+    content: '';
+    width: 0%;
+    color:white;
+    background: green;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+.navlinks ul li:hover::after{
+    width: 100%;
+
+}
+
+.navlinks ul li a:hover{
+    
+    background: steelblue;
+    transition: 0.3s;
+}

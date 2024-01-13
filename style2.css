@@ -1,0 +1,122 @@
+*{
+margin : 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+body{
+    font-family: "Rotbo", sans-serif;
+    background: white; 
+}
+
+.login-form{
+    border: 3px solid navy;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:90%;
+    max-width: 450px;
+    background: #fff;
+    padding: 30px 40px;
+    box-shadow: 0px 5px 10px, rgba(0,0,0,0,1);
+    
+}
+.login-form .title{
+    border: 1px solid red;
+    font-family: "montserrat",sans-serif;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+    margin: 20px 0px 30px;
+    color: darkblue;
+   font-feature-settings: normal;
+    font-family: inherit;
+    box-shadow: 5px 10px #888888;
+    padding-bottom: 10px;
+}
+.login-form .form-input{
+    margin:10px 0px;
+    font-family:montserrat;
+    padding: 2px 3px;
+}
+.login-form .form-input .mytext{
+    width: 70%;
+    padding-top: 10px;
+}
+.login-form .form-input label,
+{
+    display: block;
+    font-size: 15px;
+    color:#111;
+    margin: 5px;
+    
+}
+
+.login-form .form-input input{
+    width:100%;
+    padding-top: 2px;
+    padding: 10px;
+    border: 1px dashed blue;
+    font-size: 15px;
+}
+
+.login-form .btn
+{
+    display:flex;
+    padding-top: 2px;
+  
+}
+.login-form .btn #login-btn{
+      width:50%;
+    margin-top: 5px;
+     margin-right: 5px;
+    padding: 10px;
+    border:1px;
+    outline: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: #4c81ff;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.login-form .btn #reset{
+    padding-left: 20px;
+      width:50%;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 10px;
+    border:1px;
+    outline: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: red;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
